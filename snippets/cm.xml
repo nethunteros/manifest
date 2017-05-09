@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="nethunteros"
-           fetch="https://github.com/nethunteros" 
-           revision="cm-14.1-lxc"/>  
-
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
@@ -66,7 +62,7 @@
   <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="nethunteros" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="nethunteros" revision="cm-14.1-lxc" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
