@@ -523,5 +523,6 @@
 
   <include name="snippets/cm.xml" />
   <include name="vendor.xml" />
+  <include name="devices.xml" />
 
 </manifest>
