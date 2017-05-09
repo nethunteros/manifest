@@ -28,6 +28,7 @@
   <!-- LXC Stuff -->
   <project path="external/lxc" name="platform_external_lxc" remote="nethunteros" revision="master" />
   <project path="prebuilts/busybox" name="platform_prebuilts_busybox" remote="maruos" />
+  <project path="blueprints" name="blueprints" remote="nethunteros" revision="master-no-mflinger" />
 
   <!-- AOSP Projects -->
 
