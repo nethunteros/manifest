@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- TheMuppets -->
+  <project name="TheMuppets/proprietary_vendor_alcatel" path="vendor/alcatel" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_amazon" path="vendor/amazon" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_bn" path="vendor/bn" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_bq" path="vendor/bq" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_elan" path="vendor/elan" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_nextbit" path="vendor/nextbit" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_smartfren" path="vendor/smartfren" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_ti" path="vendor/ti" revision="master" remote="github"/>
+  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_wileyfox" path="vendor/wileyfox" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_zte" path="vendor/zte" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="cm-14.1"/>
+</manifest>
