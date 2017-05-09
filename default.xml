@@ -8,15 +8,26 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="nethunteros"
+           fetch="https://github.com/nethunteros" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r8" />
 
+  <remote  name="maruos"
+           fetch="https://github.com/maruos"
+           revision="refs/tags/v0.4" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
+
+  <!-- LXC Stuff -->
+  <project path="external/lxc" name="platform_external_lxc" remote="nethunteros" revision-="master" />
+  <project path="prebuilts/busybox" name="platform_prebuilts_busybox" remote="maruos" />
 
   <!-- AOSP Projects -->
 
