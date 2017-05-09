@@ -26,7 +26,7 @@
            sync-j="4" />
 
   <!-- LXC Stuff -->
-  <project path="external/lxc" name="platform_external_lxc" remote="nethunteros" revision-="master" />
+  <project path="external/lxc" name="platform_external_lxc" remote="nethunteros" revision="master" />
   <project path="prebuilts/busybox" name="platform_prebuilts_busybox" remote="maruos" />
 
   <!-- AOSP Projects -->
