@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Nexus 5 (Hammerhead) -->
+  <project path="device/lge/hammerhead" name="nethunteros/android_device_lge_hammerhead" remote="github" revision="cm-14.1-lxc" />
   <project path="kernel/lge/hammerhead" name="nethunteros/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1-lxc" />
 
 </manifest>
