@@ -511,5 +511,10 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm.xml" />
+  
+  <!-- NethunterOS includes -->
+  <include name="vendor.xml" />
+  <include name="devices.xml" />
+  <include name="nethunteros.xml" />
 
 </manifest>
