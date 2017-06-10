@@ -4,6 +4,9 @@
   <!-- Nexus 5 (Hammerhead) -->
   <project path="device/lge/hammerhead" name="nethunteros/android_device_lge_hammerhead" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/hammerhead" name="nethunteros/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
+  <project path="kernel/lge/hammerhead" name="nethunteros/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
+  <remove-project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="nethunteros/android_hardware_broadcom_wlan" />  
 
   <!-- OnePlus1 -->
   <project path="device/oneplus/bacon" name="nethunteros/android_device_oneplus_bacon" remote="github" revision="cm-14.1" />
