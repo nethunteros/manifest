@@ -8,6 +8,11 @@
            fetch="https://github.com/copperheados/"
            revision="refs/heads/nougat-mr2-release" />
 
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.2_r17" />
+
   <!-- Prebuilt Software for Nethunter-->
   <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Nethunter_Terminal" name="android_packages_apps_Nethunter_Terminal" remote="nethunteros" revision="master" />
@@ -31,5 +36,8 @@
 
   <remove-project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/nethunter" name="vendor_nethunter" remote="nethunteros" revision="cm-14.1" />
+
+  <!-- OpenSSH -->
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
 
 </manifest>
