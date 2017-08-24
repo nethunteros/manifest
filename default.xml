@@ -3,7 +3,8 @@
   <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="android-external.lnx.2.0.r13-rel"/>
   <remote fetch=".." name="oneplus" />
-  
+  <remote fetch="https://github.com/nethunteros" name="nethunteros" />
+
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="a80977c37e1b4bd44b39bea8065beca015952bac" upstream="uefi.lnx.1.0.r13-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="91dda462b4fc8bf5233a3f4fccce0b7b15af96b8" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="device/generic/arm64" revision="bc5282f3d9b8ad330652415b61ccaf36dba30b53" upstream="android-framework.lnx.2.0.r13-rel"/>
@@ -29,12 +30,12 @@
   <project name="OnePlusOSS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
   <project groups="pdk" name="device/sample" revision="3278b1d28223d6a7828e82aec4204d767c82cd27" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="dd34344f0bad979e6e60df09e2b45cefa82adfaa" upstream="lk.lnx.1.0.r13-rel"/>
-  <project name="OnePlusOSS/android_kernel_oneplus_msm8998" path="kernel/msm-4.4" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
+  <project name="android_kernel_oneplus_msm8998" path="kernel/msm-4.4" remote="nethunteros" revision="boeffla_oos4"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="face5be1ceea08d7d6e85da3d29b8725b929bf4b" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="f8fd5ee31fe00d67b27703b92dc4c43b7da83be1" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="b47e144df25b7238fa903bf6c870dd48e669f65b" upstream="android-framework.lnx.2.0.r13-rel"/>
-  <project groups="pdk" name="OnePlusOSS/android_build" path="build" remote="oneplus" revision="oneplus/QC8998_N_7.1">
+  <project groups="pdk" name="android_build" path="build" remote="nethunteros" revision="oneplus/QC8998_N_7.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="41a4f8811495a0a3e260ac7342cf255c33c2005b" upstream="android-framework.lnx.2.0.r13-rel"/>
@@ -304,7 +305,7 @@
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" upstream="android-external.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="android-external.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="OnePlusOSS/android_frameworks_av" path="frameworks/av" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="OnePlusOSS/android_frameworks_base" path="frameworks/base" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android_frameworks_base" path="frameworks/base" remote="nethunteros" revision="oneplus/QC8998_N_7.1"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="bf91f638cd1ada30e4a6e3f0bd038ac2191e18fd" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="9bc85f1715e2a7300597f255fdacdb93fa02c4a3" upstream="android-framework.lnx.2.0.r13-rel"/>
@@ -521,5 +522,5 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="e28432b38c32755a77c8c600495f5d65db5e65f2" upstream="qcom-devices.lnx.1.0.r13-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="ce6fcbf191afeac8cf1f5bdf6aa756f56d7fcf3d" upstream="qcom-devices.lnx.1.0.r13-rel"/>
   <project name="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="android-framework.lnx.2.0.r13-rel"/>
-  <project name="OnePlusOSS/android_vendor_oneplus_8998N" path="vendor/oneplus" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
+  <project name="android_vendor_oneplus_8998N" path="vendor/oneplus" remote="nethunteros" revision="oneplus/QC8998_N_7.1"/>
 </manifest>
