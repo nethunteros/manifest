@@ -1,0 +1,102 @@
+#
+# NEED ROOT FOR THESE FILES #
+# Default OxygenOS runs in production so you canno't pull these unless you do it
+# manually.  Here are the commands to run it manually asssuming you have root & adb
+# on OnePlus5
+#
+cd /android/system
+adb shell
+su
+mkdir -p /sdcard/bin
+mkdir -p /sdcard/vendor/bin
+mkdir -p /sdcard/sbin
+cp '/system/bin/adsprpcd' /sdcard/bin
+cp '/system/bin/ATFWD-daemon' /sdcard/bin
+cp '/system/bin/athdiag' /sdcard/bin
+cp '/system/bin/btnvtool' /sdcard/bin
+cp '/system/bin/cnd' /sdcard/bin
+cp '/system/bin/cnss-daemon' /sdcard/bin
+cp '/system/bin/cnss_diag' /sdcard/bin
+cp '/system/bin/diag_dci_sample' /sdcard/bin
+cp '/system/bin/diag_klog' /sdcard/bin
+cp '/system/bin/diag_mdlog' /sdcard/bin
+cp '/system/bin/diag_socket_log' /sdcard/bin
+cp '/system/bin/diag_uart_log' /sdcard/bin
+cp '/system/bin/dpmd' /sdcard/bin
+cp '/system/bin/DR_AP_Service' /sdcard/bin
+cp '/system/bin/dun-server' /sdcard/bin
+cp '/system/bin/energy-awareness' /sdcard/bin
+cp '/system/bin/garden_app' /sdcard/bin
+cp '/system/bin/gpsone_daemon' /sdcard/bin
+cp '/system/bin/hal_proxy_daemon' /sdcard/bin
+cp '/system/bin/hvdcp_opti' /sdcard/bin
+cp '/system/bin/imscmservice' /sdcard/bin
+cp '/system/bin/imsdatadaemon' /sdcard/bin
+cp '/system/bin/imsqmidaemon' /sdcard/bin
+cp '/system/bin/ims_rtp_daemon' /sdcard/bin
+cp '/system/bin/iop' /sdcard/bin
+cp '/system/bin/ipacm-diag' /sdcard/bin
+cp '/system/bin/irsc_util' /sdcard/bin
+cp '/system/bin/loc_launcher' /sdcard/bin
+cp '/system/bin/lowi-server' /sdcard/bin
+cp '/system/bin/mmi' /sdcard/bin
+cp '/system/bin/mm-qcamera-daemon' /sdcard/bin
+cp '/system/bin/msm_irqbalance' /sdcard/bin
+cp '/system/bin/netmgrd' /sdcard/bin
+cp '/system/bin/pktlogconf' /sdcard/bin
+cp '/system/bin/PktRspTest' /sdcard/bin
+cp '/system/bin/pm-proxy' /sdcard/bin
+cp '/system/bin/pm-service' /sdcard/bin
+cp '/system/bin/port-bridge' /sdcard/bin
+cp '/system/bin/qseecomd' /sdcard/bin
+cp '/system/bin/qseecom_sample_client' /sdcard/bin
+cp '/system/bin/qvop-daemon' /sdcard/bin
+cp '/system/bin/rmt_storage' /sdcard/bin
+cp '/system/bin/secure_ui_sample_client' /sdcard/bin
+cp '/system/bin/seempd' /sdcard/bin
+cp '/system/bin/sensors.qcom' /sdcard/bin
+cp '/system/bin/sns_ar_testapp' /sdcard/bin
+cp '/system/bin/sns_cm_conc_test' /sdcard/bin
+cp '/system/bin/sns_cm_test' /sdcard/bin
+cp '/system/bin/sns_daf_test' /sdcard/bin
+cp '/system/bin/sns_dsps_tc0001' /sdcard/bin
+cp '/system/bin/sns_hal_batch' /sdcard/bin
+cp '/system/bin/sns_oem_test' /sdcard/bin
+cp '/system/bin/sns_regedit_ssi' /sdcard/bin
+cp '/system/bin/spdaemon' /sdcard/bin
+cp '/system/bin/ssr_diag' /sdcard/bin
+cp '/system/bin/ssr_setup' /sdcard/bin
+cp '/system/bin/StoreKeybox' /sdcard/bin
+cp '/system/bin/subsystem_ramdump' /sdcard/bin
+cp '/system/bin/test_diag' /sdcard/bin
+cp '/system/bin/tftp_server' /sdcard/bin
+cp '/system/bin/time_daemon' /sdcard/bin
+cp '/system/bin/wcnss_filter' /sdcard/bin
+cp '/system/bin/wfdservice' /sdcard/bin
+cp '/system/bin/xtwifi-client' /sdcard/bin
+cp '/system/bin/xtwifi-inet-agent' /sdcard/bin
+cp '/system/bin/fingerprintd' /sdcard/bin
+cp '/system/bin/ifaadaemon' /sdcard/bin
+cp '/system/vendor/bin/esepmdaemon' /sdcard/vendor/bin
+cp '/system/vendor/bin/hbtp_daemon' /sdcard/vendor/bin
+cp '/system/vendor/bin/mdtpd' /sdcard/vendor/bin
+cp '/system/vendor/bin/mm-pp-dpps' /sdcard/vendor/bin
+cp '/system/vendor/bin/pd-mapper' /sdcard/vendor/bin
+cp '/system/vendor/bin/perfd' /sdcard/vendor/bin
+cp '/system/vendor/bin/qseeproxydaemon' /sdcard/vendor/bin
+cp '/system/vendor/bin/qseeproxysampledaemon' /sdcard/vendor/bin
+cp '/system/vendor/bin/qti' /sdcard/vendor/bin
+cp '/system/vendor/bin/qvrservice' /sdcard/vendor/bin
+cp '/system/vendor/bin/RIDLClient.exe' /sdcard/vendor/bin
+cp '/system/vendor/bin/seemp_healthd' /sdcard/vendor/bin
+cp '/system/vendor/bin/slim_daemon' /sdcard/vendor/bin
+cp '/system/vendor/bin/smcinvoked' /sdcard/vendor/bin
+cp '/system/vendor/bin/thermal-engine' /sdcard/vendor/bin
+cp '/sbin/sbin/dashd' /sdcard/sbin/dashd
+exit
+exit
+cd vendor/oneplus
+adb pull /sdcard/bin
+adb pull /sdcard/sbin
+cd vendor
+adb pull /sdcard/vendor/bin
