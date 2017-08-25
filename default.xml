@@ -30,7 +30,7 @@
   <project name="OnePlusOSS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="oneplus" revision="oneplus/QC8998_N_7.1"/>
   <project groups="pdk" name="device/sample" revision="3278b1d28223d6a7828e82aec4204d767c82cd27" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="dd34344f0bad979e6e60df09e2b45cefa82adfaa" upstream="lk.lnx.1.0.r13-rel"/>
-  <project name="android_kernel_oneplus_msm8998" path="kernel/msm-4.4" remote="nethunteros" revision="boeffla_oos4"/>
+  <project name="android_kernel_oneplus_msm8998" path="kernel/msm-4.4" remote="nethunteros" revision="nethunteros_7.1"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="face5be1ceea08d7d6e85da3d29b8725b929bf4b" upstream="android-framework.lnx.2.0.r13-rel"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="f8fd5ee31fe00d67b27703b92dc4c43b7da83be1" upstream="android-framework.lnx.2.0.r13-rel"/>
