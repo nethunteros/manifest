@@ -7,6 +7,10 @@
   <remove-project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/broadcom/wlan" name="nethunteros/android_hardware_broadcom_wlan" />  
 
+  <!-- OnePlus 5 -->
+  <project name="LineageOS/android_device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="github" revision="cm-14.1" />
+  <project path="kernel/oneplus/msm8974" name="nethunteros/android_kernel_oneplus_msm8998" remote="github" revision="cm-14.1" />
+
   <!-- OnePlus1 -->
   <project path="device/oneplus/bacon" name="nethunteros/android_device_oneplus_bacon" remote="github" revision="cm-14.1" />
   <project path="kernel/oneplus/msm8974" name="nethunteros/android_kernel_oneplus_msm8974" remote="github" revision="cm-14.1" />
