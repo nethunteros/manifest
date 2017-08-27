@@ -35,4 +35,7 @@
   <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_zte" path="vendor/zte" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1"/>    
 </manifest>
