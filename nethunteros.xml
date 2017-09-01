@@ -30,7 +30,7 @@
   </project>
 
   <remove-project path="vendor/cm" name="LineageOS/android_vendor_cm" />
-  <project path="vendor/nethunter" name="vendor_nethunter" remote="nethunteros" revision="cm-14.1" />
+  <project path="vendor/nethunter" name="vendor_nethunter" remote="nethunteros" revision="cm-14.1-rebase" />
 
   <!-- Nethunter fs -->
   <project path="external/nethunter_fs" name="nethunter_fs" remote="nethunteros" revision="master" />
