@@ -8,7 +8,8 @@
   <project path="hardware/broadcom/wlan" name="nethunteros/android_hardware_broadcom_wlan" />  
 
   <!-- OnePlus 5 -->
-  <project path="kernel/oneplus/msm8998" name="nethunteros/android_kernel_oneplus_msm8998" remote="github" revision="cm-14.1" />
+  <project path="device/oneplus/cheeseburger" name="nethunteros/android_device_oneplus_cheeseburger" remote="github" revision="cm-14.1" />
+  <project path="kernel/oneplus/msm8998" name="nethunteros/android_kernel_oneplus_msm8998" remote="github" revision="boeffla_14" />
 
   <!-- OnePlus1 -->
   <project path="device/oneplus/bacon" name="nethunteros/android_device_oneplus_bacon" remote="github" revision="cm-14.1" />
