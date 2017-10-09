@@ -12,7 +12,6 @@
   <project path="kernel/oneplus/msm8998" name="nethunteros/android_kernel_oneplus_msm8998" remote="github" revision="boeffla_cm14" />
 
   <!-- OnePlus1 -->
-  <project path="device/oneplus/bacon" name="nethunteros/android_device_oneplus_bacon" remote="github" revision="cm-14.1" />
   <project path="kernel/oneplus/msm8974" name="nethunteros/android_kernel_oneplus_msm8974" remote="github" revision="cm-14.1" />
 
   <!-- Oppo Common -->
