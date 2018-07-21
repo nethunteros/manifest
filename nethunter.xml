@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote  name="nethunteros"
+           fetch="https://github.com/nethunteros" />
+
+  <!-- Prebuilt Software for Nethunter-->
+  <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
+  <project path="packages/apps/Nethunter_Terminal" name="android_packages_apps_Nethunter_Terminal" remote="nethunteros" revision="master" />
+  <project path="packages/apps/Nethunter" name="android_packages_apps_Nethunter" remote="nethunteros" revision="master" />
+  <project path="packages/apps/Nethunter_VNC" name="android_packages_apps_Nethunter_VNC" remote="nethunteros" revision="master" />
+  <project path="prebuilts/busybox" name="platform_prebuilts_busybox" remote="nethunteros" revision="master" />
+
+  <!-- Addon software -->
+  <project path="packages/apps/Magisk_Manager" name="android_packages_apps_magisk_manager" remote="nethunteros" revision="master" />
+  <project path="packages/apps/Drivedroid" name="android_packages_apps_Drivedroid" remote="nethunteros" revision="master" />
+
+  <!-- Icons -->
+  <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="nethunteros" revision="lineage-15.1" />
+
+  <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="nethunteros" revision="lineage-15.1" />
+
+  <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="nethunteros" revision="lineage-15.1" />
+
+</manifest>
