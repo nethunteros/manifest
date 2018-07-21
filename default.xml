@@ -576,4 +576,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- NethunterOS includes -->
+  <include name="vendor.xml" />
+  <include name="nethunteros.xml" />
+
 </manifest>
