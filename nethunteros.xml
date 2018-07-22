@@ -26,9 +26,6 @@
   <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nethunteros" revision="lineage-15.1" />
 
-  <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="nethunteros" revision="lineage-15.1" />
-
   <remove-project name="LineageOS/android_build" />
   <project path="build/make" name="android_build" remote="nethunteros" revision="lineage-15.1" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
